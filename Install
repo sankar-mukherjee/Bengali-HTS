@@ -1,0 +1,35 @@
+Bengali HMM based speech synthesis system (Bengali-HTS)
+Version 1.0.
+
+By
+# Sankar Mukherjee
+# CET, IITKGP
+# sankar1535@gmail.com
+# for more updates ==> https://github.com/sankar-mukherjee/Bengali-HTS
+
+Requirements
+============
+works only with linux
+
+HTS should be installed
+
+====================================================================================
+run in turminal
+
+sh Bengali_HTS.sh input out.wav
+
+input = input sentence (work only with one sentence)
+out.wav = Synthesized output
+
+-----------------------------------------Description--------------------------------
+bng_hts_engine = HTS voices
+HTS_frontend = TTS front-end
+
+
+genlab_new.pl = .tag ==> .lab
+
+.tag and .lab can be created by removing # from the last line of Bengali_HTS.sh 
+it will create 2 files when run
+
+input_1 = .tag (sentence to feature format)
+input_2 = .lab (feature format to HTS features)

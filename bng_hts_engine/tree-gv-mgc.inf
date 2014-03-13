@@ -1,0 +1,9 @@
+QS Num-Syls_in_Utterance<=9 { "*/J:?+*" }
+QS Num-Syls_in_Utterance<=20 { "*/J:?+*","*/J:1?+*","*/J:20+*" }
+
+{*}[2]
+{
+   0 Num-Syls_in_Utterance<=9                           -1          "gv_mgc_1" 
+  -1 Num-Syls_in_Utterance<=20                           "gv_mgc_3"       "gv_mgc_2" 
+}
+
